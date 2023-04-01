@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- Enlace para Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<title>Registro de inventario</title>
+</head>
+<body>
+	<h1>Registro de inventario</h1>
+	<form method="post" action="agregar_producto.php">
+		<label for="nombre_producto">Nombre del producto:</label>
+		<input type="text" name="nombre_producto" id="nombre_producto"><br>
+		<label for="cantidad">Cantidad:</label>
+		<input type="number" name="cantidad" id="cantidad"><br>
+		<label for="precio">Precio:</label>
+		<input type="number" name="precio" id="precio"><br>
+		<input type="submit" value="Agregar producto">
+	</form>
+	<a href="inventario.php" class="btn btn-primary">Ir al inventario</a>
+</body>
+</html>
